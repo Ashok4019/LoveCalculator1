@@ -1,0 +1,11 @@
+com\spring\validator\Agevalidator.class
+com\spring\API\UserRegistrationDTO.class
+com\spring\controller\register.class
+com\spring\configuration\LCApplicationinsizalition.class
+com\spring\annotation\Age.class
+com\spring\controller\home.class
+com\spring\API\Phone.class
+com\spring\API\UserDetailsDTO.class
+com\spring\API\CommunicationDTO.class
+com\spring\configuration\LCApplicationconfiguration.class
+com\spring\formatter\Phoneformatter.class

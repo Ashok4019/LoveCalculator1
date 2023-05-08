@@ -1,0 +1,9 @@
+creating custom validator(age validator)
+
+first create age annotation file(step 1)
+next create validator file(step 2)
+next create properties file in java resource file (step 3)
+next link configuaration file 
+ResourceBundleMessageSource 
+LocalValidatorFactoryBean validator() 
+public org.springframework.validation.Validator getValidator()
