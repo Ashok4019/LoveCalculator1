@@ -14,7 +14,6 @@ import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
-
 import com.spring.formatter.Phoneformatter;
 
 @EnableWebMvc
@@ -68,7 +67,7 @@ public class LCApplicationconfiguration implements WebMvcConfigurer {
 		  JavaMailSenderImpl javaMailSenderImpl =new JavaMailSenderImpl();
 		  javaMailSenderImpl.setHost("smtp.gmail.com");
 		  javaMailSenderImpl.setUsername("ksashok63@gmail.com");
-		  javaMailSenderImpl.setPassword("Ashok@ajith123");
+		  javaMailSenderImpl.setPassword("Ashok@4019");
 		  javaMailSenderImpl.setPort(587);
 		  
 		  Properties mailProperties=new Properties();

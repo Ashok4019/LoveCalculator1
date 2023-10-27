@@ -27,7 +27,7 @@ public class register {
 		if (resut.hasErrors()) {
 			List<ObjectError> allErrors = resut.getAllErrors();
 			for (ObjectError temp : allErrors) {
-				System.out.println(temp);
+				//System.out.println(temp);
 				return "register";
 			}
 

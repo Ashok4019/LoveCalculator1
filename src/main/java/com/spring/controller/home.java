@@ -18,13 +18,14 @@ public class home {
 
 	@RequestMapping("/home")
 	public String display(Model model) {
+		System.out.println("homemethode");
 		model.addAttribute("userinfo", new UserDetailsDTO());
 		return "home";
 	}
 
 	@RequestMapping("/process")
 	public String process(@Valid @ModelAttribute("userinfo") UserDetailsDTO userdetails, BindingResult result) {
-
+		System.out.println("processmethode");
 		if (result.hasErrors()) {
 			List<ObjectError> allErrors = result.getAllErrors();
 			for (ObjectError temp : allErrors) {

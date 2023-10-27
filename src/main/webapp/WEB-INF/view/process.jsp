@@ -10,7 +10,7 @@ body {
 }
 </style>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Love calculater</title>
 </head>
 <body>
 	<p>yourname:${userinfo.yourname}</p>

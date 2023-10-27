@@ -8,8 +8,8 @@
 <title>Email</title>
 </head>
 <body>
- <h1>Hi ${userinfo}</h1>
- <form:form modelAttribute="emailDto" action="/Emailprocess">
+ <h1>Hi: ${userinfo.yourname}</h1>
+ <form:form modelAttribute="emailDTO" action="Emailprocess">
  <label>Enter your MailId</label>
  <form:input path="email"/>
  <input type="submit" />

@@ -19,6 +19,7 @@ public class Email {
 
 	@RequestMapping("/Email")
 	public String emil(Model model) {
+		System.out.println("emailmethode");
 		model.addAttribute("emailDTO", new EmailDTO());
 		return "Email";
 
@@ -27,7 +28,7 @@ public class Email {
 	@RequestMapping("/Emailprocess")
 	public String emilprocess(@SessionAttribute("userinfo") UserDetailsDTO userdetails,
 			@ModelAttribute("emailDTO") EmailDTO emailDTO) {
-		
+		System.out.println("emailmethodeprocess");
 		try {
 		 
 		lcsendmailservice.sendEmail(userdetails.getYourname(),emailDTO.getEmail(),"Friend");
